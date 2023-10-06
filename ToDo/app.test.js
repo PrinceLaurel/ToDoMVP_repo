@@ -25,3 +25,13 @@ describe('Can get an answer from /testing', () => {
         .end(done)
     });
 });
+/*
+describe('Can get an answer from /', () => {
+    test('GET /', done => {
+        request(app)
+        .get('/')
+        .expect(200, 'ToDo')
+        .end(done)
+    });
+}); */
+
